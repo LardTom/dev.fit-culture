@@ -1,0 +1,18 @@
+button {
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    font-size: 1.1rem;
+    background-color: white;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 150ms;
+    
+
+    &:hover{
+        background-color: $gold;
+    }
+}
