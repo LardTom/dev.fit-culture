@@ -83,10 +83,6 @@ body {
   width: 100%;
 }
 
-.payment-icons {
-  display: none;
-}
-
 .bodywrapper {
   margin: 0 20%;
 }
@@ -265,10 +261,88 @@ body {
   padding: 3rem;
   text-align: left;
   font-size: 1.1rem;
+  line-height: 1.5;
 }
 
-.footer-wrapper {
+footer hr {
+  margin-bottom: 3rem;
+}
+
+footer .footer-wrapper {
   margin: 0 20%;
+}
+
+footer .footer-wrapper .pros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer .footer-wrapper .pros .pro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 700;
+}
+
+footer .footer-wrapper .pros .pro img {
+  width: 64px;
+  margin: .5rem auto;
+}
+
+footer .footer-wrapper .footer-section {
+  position: relative;
+}
+
+footer .footer-wrapper .footer-section h3 {
+  margin-top: 2rem;
+}
+
+footer .footer-wrapper .footer-section ul {
+  list-style: none;
+}
+
+footer .footer-wrapper .footer-section ul a {
+  color: black;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  line-height: 2;
+}
+
+footer .footer-wrapper .footer-section .credentials {
+  margin-top: 2rem;
+  font-size: 0.75rem;
+  position: absolute;
+}
+
+footer .footer-wrapper .footer-section .inline-list {
+  position: absolute;
+  list-style: none;
+  margin-left: 0;
+  margin-right: -8px;
+  bottom: 0;
+  right: 0;
+}
+
+footer .footer-wrapper .footer-section .inline-list > * {
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  vertical-align: middle;
 }
 
 button {

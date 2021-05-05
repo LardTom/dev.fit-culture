@@ -52,10 +52,6 @@
     }
 }
 
-.payment-icons{
-    display: none;
-}
-
 .bodywrapper{
     margin: 0 20%;
 }
@@ -210,9 +206,80 @@
         padding: 3rem;
         text-align: left;
         font-size: 1.1rem;
+        line-height: 1.5;
     }
 }
 
-.footer-wrapper{
-    margin: 0 20%;
+footer{
+    hr{
+        margin-bottom: 3rem;
+    }
+
+    .footer-wrapper{
+        margin: 0 20%;
+    
+        .pros{
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            
+    
+            .pro{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-weight: 700;
+    
+                img{
+                    width: 64px;
+                    margin: .5rem auto;
+                }
+            }
+
+        }
+
+
+        .footer-section{
+
+            position: relative;
+
+            h3{
+                margin-top: 2rem;
+            }
+    
+            ul{
+                list-style: none;
+                a{
+                    color: black;
+                    text-decoration-line: none;
+                    line-height: 2;
+                }
+            }
+
+            .credentials{
+                margin-top: 2rem;
+                font-size: 0.75rem;
+                position: absolute;                
+            }
+
+            .inline-list {
+                position: absolute;
+                list-style: none;
+                margin-left: 0;
+                margin-right: -8px;
+                bottom: 0;
+                right: 0;
+            }
+            .inline-list > * {
+                  display: inline-block;
+                  margin-right: 8px;
+                  margin-bottom: 8px;
+                  vertical-align: middle; 
+            }
+            
+        }
+        
+    }
 }
+
